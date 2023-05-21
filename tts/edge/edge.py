@@ -7,8 +7,8 @@ from tts.edge.azure import azure_speak
 config = configparser.ConfigParser()
 config.read('config.ini', 'utf-8')
 
-api = ''# config['TTS_Edge']['azure_speech_key']
-region = ''# config['TTS_Edge']['azure_region']
+api = config['TTS_Edge']['azure_speech_key']
+region = config['TTS_Edge']['azure_region']
 
 with open(f'./tts/edge/ssml.json', 'r', encoding='utf-8') as f:
     moods = json.load(f)

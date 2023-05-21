@@ -1,3 +1,4 @@
+import validator.startup
 from waifu.Waifu import Waifu
 from waifu.StreamCallback import WaifuCallback
 from waifu.llm.GPT import GPT
