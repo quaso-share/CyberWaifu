@@ -24,3 +24,15 @@ data
 download
 logs
 memory
+
+# 生成文件与二进制
+
+**/**/*.exe
+/qqbot/go-cqhttp.bat
+
+# 个性化文件
+
+/presets/**/**/*.txt
+!/presets/character/大学生.txt
+!/presets/character/大学生记忆.txt
+!/presets/character/模板.txt
